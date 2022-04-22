@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: "Fantasque";
+    src: url(./TTF/FantasqueSansMono-Regular.ttf) format("truetype");
+}
+pre{
+    font-family: "Fantasque", Verdana, Tahoma;
+    font-size:x-large;
+    border:1px solid #fff;
+    background-color: #36373a;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 4% 7% 4%;
+    line-height: 2;    
+}
+ .bookBtn{
+    color: #fff;
+    background-color: black;
+    border-style: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0% 2% 0%;
+    cursor: pointer;
+    margin: 1% 2% 1%;
+}
+.bookBtn:hover{
+    color: rgb(0, 0, 0);
+    background-color:#fafd36;
+}
+#input-text{
+    background-color: black;
+    width:300px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+} 
+#result-div strong{
+    color:#fafd36;
+    letter-spacing: 2px;
+}

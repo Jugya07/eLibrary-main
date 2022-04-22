@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Book</title>
+    <script src="./p4stat.js" defer></script>
+    <style>
+        @font-face {
+        font-family: "Fantasque";
+        src: url(./TTF/FantasqueSansMono-Regular.ttf) format("truetype");
+}
+        body{
+            margin:  7% 20% 7% ;
+            background-color: black;
+        }
+        div{
+            font-family: "Fantasque", Verdana, Tahoma;
+            font-size: large;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 30px;
+            background-color: #36373a;
+            padding: 4% 4% 3%;
+            
+        }
+        input{
+            font-size: larger;
+            height: 40px;
+            width:70%;
+            border-radius: 10px;
+        }
+        button{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+            background-color: black;
+            border-style: none;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 2%;
+            padding: 1%;
+        }
+        button:hover{
+            color: rgb(0, 0, 0);
+    background-color:#fafd36;
+    text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Returned Book</h1>
+        <hr>
+        <p><strong>Enter ISBN :</strong> </p>
+        <input type="text" id ='isbnreturn' placeholder="--enter ISBN--">
+        <br>
+        <button onclick="returnonclick()">Returned</button>
+    </div>
+</body>
+</html>

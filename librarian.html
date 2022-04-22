@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Librarian Page</title>
+    <style>
+      @font-face {
+        font-family: "Fantasque";
+        src: url(./TTF/FantasqueSansMono-Regular.ttf) format("truetype");
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: black;
+      }
+      div {
+        color: #fff;
+        margin: 7% 20% 7%;
+        background-color: #36373a;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 15px;
+        border-radius: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .inner {
+        font-family: "Fantasque", Verdana, Tahoma;
+        padding: 7% 5% 7%;
+        text-align: center;
+      }
+      p {
+        font-weight: bold;
+        font-size: large;
+        text-align: center;
+      }
+      .lendbtn {
+        width: 30%;
+        padding: 3% 0% 3%;
+        margin: 1%;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        color: azure;
+      }
+      .lendbtn:hover {
+        background-color: #fafd36;
+        color: rgb(9, 9, 9);
+        text-decoration: underline;
+      }
+      @media (max-width: 700px) {
+        div {
+          margin: 20px 5% 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="inner">
+        <h1>CHOOSE AN OPTION</h1>
+        <hr style="border-style: none; border: 2px solid #fff" />
+        <p class="only">
+          <button class="lendbtn" onclick="window.location='./addPage.html'">
+            ADD
+          </button>
+        </p>
+        <p class="only">
+          <button class="lendbtn" onclick="window.location='./deletePage.html'">
+            DELETE
+          </button>
+        </p>
+        <p class="only">
+          <button class="lendbtn" onclick="window.location='./lendPage.html'">
+            LEND
+          </button>
+        </p>
+        <p class="only">
+            <button class="lendbtn" onclick="window.location='./returnedBook.html'">
+              RETURNED
+            </button>
+          </p>
+      </div>
+    </div>
+  </body>
+</html>
